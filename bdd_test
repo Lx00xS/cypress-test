@@ -1,0 +1,19 @@
+Funcionalidade: Visualizar a página inicial do portal
+
+Cenário: Visualizar página inicial do portal com filmes em cartaz
+	Dado: O usuário está em um browser web
+	Quando: O usuário visitar a https://portal-de-filmes.onrender.com/
+	Então: O usuário deve vizualizar os filmes em cartaz nos cinemas
+
+
+Funcionalidade: Visualizar detalhes de um filme
+
+Cenário: Visualizar os detalhes de um filme
+	Dado: O usuário está na página inicial do portal
+	Quando: O usuário pressionar o botão de 'Mais Informações'
+	Então: O usuário é direcionado a uma nova página
+	E: O usuário pode vizualizar o poster do filme
+	E: O usuário pode ver a sinopse do filme
+	E: O usuário pode ver a data de lançamento do filme
+	E: O usuário pode ver a duração do filmes
+	E: O usuário pode ver qual o idioma original do filme
